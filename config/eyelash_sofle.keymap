@@ -99,7 +99,7 @@
 &bt BT_SEL 0  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &mmv MOVE_DOWN   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &trans  &trans
 &kp LCTRL     &trans  &kp LALT      &kp LCMD      &kp  LSHFT    &trans         &mmv MOVE_LEFT   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans  &kp BSPC
 &kp ESC       &trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp  TAB      &trans         &mmv MOVE_RIGHT  &trans     &kp ENTER  &trans     &trans     &trans  &kp DELETE
-&kp C_MUTE    &trans  &trans        &trans        &trans        &trans         &mkp LCLK        &kp ENTER  &to 3      &trans     &trans     &trans
+&kp C_MUTE    &trans  &trans        &trans        &trans        &trans         &mkp LCLK        &kp ENTER  &to 3      &trans     &trans     &trans  &trans
             >;
 
             display-name = "layer1";
