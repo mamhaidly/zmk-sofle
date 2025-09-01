@@ -68,8 +68,8 @@
         layer_1 {
             bindings = <
 &trans      &trans  &trans        &trans        &trans      &trans    &mmv MOVE_UP     &trans     &trans     &trans     &trans     &trans  &trans
-&trans      &trans  &kp C_VOL_DN  &kp C_VOL_UP  &mkp RCLK   &trans    &mmv MOVE_DOWN   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &trans  &trans
-&kp LCTRL   &trans  &kp RALT      &kp LCMD      &kp  RSHFT  &trans    &mmv MOVE_LEFT   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans  &kp BSPC
+&trans      &trans  &kp C_VOL_DN  &kp C_VOL_UP  &trans   &trans    &mmv MOVE_DOWN   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &trans  &trans
+&kp LCTRL   &trans  &kp LALT      &kp LCMD      &kp  LSHFT  &trans    &mmv MOVE_LEFT   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans  &kp BSPC
 &kp ESC     &trans  &trans        &trans        &kp  TAB    &trans    &mmv MOVE_RIGHT  &trans     &kp ENTER  &trans     &trans     &trans  &kp DELETE
 &kp C_MUTE  &trans  &trans        &trans        &trans      &trans    &mkp LCLK        &kp ENTER  &mo 3      &trans     &trans     &trans
             >;
@@ -80,11 +80,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&trans      &trans  &trans     &trans     &trans      &trans       &mmv MOVE_UP     &trans     &trans     &trans        &trans     &trans  &trans
+&kp EXCL    &trans  &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT  &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTERISK  &kp UNDER  &trans  &kp SEMI
+&kp GRAVE   &trans  &kp TILDE  &kp LCB    &kp LPAR    &kp LBKT     &mmv MOVE_LEFT   &kp COLON  &kp RSHFT  &kp RCMD      &kp RALT   &trans  &kp RCTRL
+&kp LT      &trans  &kp GT     &kp RCB    &kpRPAR     &kp RBKT     &mmv MOVE_RIGHT  &kp PIPE   &kp MINUS  &kp EQUAL     &kp PLUS   &trans  &kp BSLH
+&kp C_MUTE  &trans  &trans     &trans     &mo 3       &trans       &mkp LCLK        &trans     &trans     &trans        &trans     &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -92,15 +92,13 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans    &trans    &trans      &trans    &mmv MOVE_UP     &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans    &trans    &trans      &trans    &mmv MOVE_DOWN   &trans  &kp N7  &kp N8  &trans  &kp N9  &trans
+&kp LCTRL   &trans  &kp LALT  &kp LCMD  &kp  LSHFT  &trans    &mmv MOVE_LEFT   &trans  &kp N4  &kp N5  &trans  &kp N6  &trans
+&trans      &trans  &trans    &trans    &trans      &trans    &mmv MOVE_RIGHT  &kp N0  &kp N1  &kp N2  &trans  &kp N3  &trans
+&kp C_MUTE  &trans  &trans    &trans    &trans      &trans    &mkp LCLK        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
-
-
 
     };
 };
