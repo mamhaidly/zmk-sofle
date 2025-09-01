@@ -49,28 +49,28 @@
         };
 
         combo_esc {
-            layers = <0>
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <15 16>;
             bindings = <&kp ESC>;
         };
 
         combo_tab {
-            layers = <0>
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <41 42>
             bindings = <&kp TAB>;
         };
 
         combo_bksp {
-            layers = <0>
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <22 23>;
             bindings = <&kp BACKSPACE>;
         };
 
         combo_ent {
-            layers = <0>
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <48 49>;
             bindings = <&kp ENTER>;
