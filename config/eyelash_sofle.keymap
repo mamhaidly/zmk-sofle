@@ -97,8 +97,8 @@
             bindings = <
 &trans        &trans  &trans        &trans        &trans        &trans         &mmv MOVE_UP     &trans     &trans     &trans     &trans     &trans  &trans
 &bt BT_SEL 0  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &mmv MOVE_DOWN   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &trans  &trans
-&kp LCTRL     &trans  &kp LALT      &kp LCMD      &kp  LSHFT    &trans         &mmv MOVE_LEFT   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans  &kp BSPC
-&kp ESC       &trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp  TAB      &trans         &mmv MOVE_RIGHT  &trans     &kp ENTER  &trans     &trans     &trans  &kp DELETE
+&kp LCTRL     &trans  &kp LALT      &kp LCMD      &kp LSHFT    &trans         &mmv MOVE_LEFT   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans  &kp BSPC
+&kp ESC       &trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp TAB      &trans         &mmv MOVE_RIGHT  &trans     &kp ENTER  &trans     &trans     &trans  &kp DELETE
 &kp C_MUTE    &trans  &trans        &trans        &trans        &trans         &mkp LCLK        &kp ENTER  &to 3      &trans     &trans     &trans
             >;
 
@@ -108,11 +108,11 @@
 
         layer_2 {
             bindings = <
-&trans      &trans  &trans     &trans     &trans      &trans       &mmv MOVE_UP     &trans     &trans     &trans        &trans     &trans  &trans
-&kp EXCL    &trans  &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT  &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTERISK  &kp UNDER  &trans  &kp SEMI
-&kp GRAVE   &trans  &kp TILDE  &kp LCB    &kp LPAR    &kp LBKT     &mmv MOVE_LEFT   &kp COLON  &kp RSHFT  &kp RCMD      &kp RALT   &trans  &kp RCTRL
-&kp LT      &trans  &kp GT     &kp RCB    &kpRPAR     &kp RBKT     &mmv MOVE_RIGHT  &kp PIPE   &kp MINUS  &kp EQUAL     &kp PLUS   &trans  &kp BSLH
-&trans      &trans  &trans     &trans     &to 3       &trans       &mkp LCLK        &trans     &trans     &trans        &trans     &trans
+&trans      &trans  &trans     &trans    &trans      &trans       &mmv MOVE_UP     &trans     &trans     &trans        &trans     &trans  &trans
+&kp EXCL    &trans  &kp AT     &kp HASH  &kp DOLLAR  &kp PERCENT  &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTERISK  &kp UNDER  &trans  &kp SEMI
+&kp GRAVE   &trans  &kp TILDE  &kp LCB   &kp LPAR    &kp LBKT     &mmv MOVE_LEFT   &kp COLON  &kp RSHFT  &kp RCMD      &kp RALT   &trans  &kp RCTRL
+&kp LT      &trans  &kp GT     &kp RCB   &kp RPAR    &kp RBKT     &mmv MOVE_RIGHT  &kp PIPE   &kp MINUS  &kp EQUAL     &kp PLUS   &trans  &kp BSLH
+&trans      &trans  &trans     &trans    &to 3       &trans       &mkp LCLK        &trans     &trans     &trans        &trans     &trans
             >;
             display-name = "layer2";
             sensor-bindings = <&scroll_encoder>;
