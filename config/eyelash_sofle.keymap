@@ -34,11 +34,11 @@
 
         layer0 {
             bindings = <
-                &trans     &trans     &trans       &trans       &trans     &trans  &trans          &trans    &trans     &trans     &trans  &trans
-                &kp Q      &trans     &kp W        &kp E        &kp R      &kp T   &kp Y           &kp U     &kp I      &kp O      &trans  &kp P
-                &kp A      &trans     &kp S        &kp D        &kp F      &kp G   &kp H           &kp J     &kp K      &kp L      &trans  &kp QUOTE
-                &kp Z      &trans     &kp X        &kp C        &kp V      &kp B   &kp N           &kp M     &kp COMMA  &kp DOT    &trans  &kp FSLH
-                &kp LSHFT  &kp ESC    &kp LEFT_GUI &kp LEFT_ALT &kp LCTRL  &trans  &kp RIGHT_SHIFT &kp ENTER &kp SPACE  &mo 1      &mo 2   &trans
+                &trans     &trans   &trans        &trans        &trans     &trans  &trans           &trans     &trans     &trans   &trans  &trans
+                &kp Q      &trans   &kp W         &kp E         &kp R      &kp T   &kp Y            &kp U      &kp I      &kp O    &trans  &kp P
+                &kp A      &trans   &kp S         &kp D         &kp F      &kp G   &kp H            &kp J      &kp K      &kp L    &trans  &kp QUOTE
+                &kp Z      &trans   &kp X         &kp C         &kp V      &kp B   &kp N            &kp M      &kp COMMA  &kp DOT  &trans  &kp FSLH
+                &kp LSHFT  &kp ESC  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &trans  &kp RIGHT_SHIFT  &kp ENTER  &kp SPACE  &mo 1    &mo 2   &trans
             >;
             display-name = "BASE";
         };
