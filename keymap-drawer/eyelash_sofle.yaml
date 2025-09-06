@@ -40,7 +40,7 @@ layers:
   - L
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ;, s: ':'}
-  - Z
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - X
   - C
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: /, s: '?'}
+  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -61,8 +61,8 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-space$$', h: layer1}
+  - {t: '$$mdi:backspace$$', h: layer2}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer1:
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -192,7 +192,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer3:
@@ -263,12 +263,3 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
-- p: [15, 16]
-  k: $$mdi:keyboard-esc$$
-  l: [LAYER0]
-- p: [41, 42]
-  k: $$mdi:keyboard-tab$$
-  l: [LAYER0]
-- p: [48, 49]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [LAYER0]
