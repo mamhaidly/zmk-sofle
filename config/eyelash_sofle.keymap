@@ -112,11 +112,11 @@
 
         layer_3 {
             bindings = <
-&kp ESC     &trans         &kp GRAVE  &kp EQUAL          &kp TILDE  &kp PLUS    &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4  &mkp MB5  &trans  &trans
-&kp TAB     &kp BSLH       &trans     &kp RIGHT_BRACKET  &trans     &kp RBRC    &trans     &trans     &trans     &trans    &trans    &trans  &trans
+&kp ESC     &trans         &kp GRAVE  &kp EQUAL          &kp TILDE  &kp PLUS    &mkp LCLK        &mkp MCLK       &mkp RCLK        &mkp MB4         &mkp MB5         &trans  &trans
+&kp TAB     &kp BSLH       &trans     &kp RIGHT_BRACKET  &trans     &kp RBRC    &trans           &trans          &trans           &trans           &trans           &trans  &trans
 &kp CAPS    &kp APOS       &trans     &trans             &trans     &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &trans  &trans
-&kp LSHFT   &kp ENTER      &trans     &trans             &trans     &trans      &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12  &trans  &trans
-&trans      &LCTRL         &mo 1      &trans             &trans     &trans      &mkp LCLK        &trans  &trans  &trans  &trans  &trans
+&kp LSHFT   &kp ENTER      &trans     &trans             &trans     &trans      &rgb_ug RGB_BRI  &rgb_ug RGB_BRD &kp INSERT       &kp F11          &kp F12          &trans  &trans
+&trans      &LCTRL         &mo 1      &trans             &trans     &trans      &mkp LCLK        &trans          &trans           &trans           &trans           &trans
             >;
             display-name = "layer3";
         };
