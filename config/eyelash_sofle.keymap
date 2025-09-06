@@ -70,7 +70,7 @@
 &kp F1           &trans  &kp F2            &kp F3             &kp F4           &kp F5        &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &trans  &kp F10           
 &kp F11          &trans  &kp F12           &kp INSERT         &kp CAPS         &trans        &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &trans  &trans         
 &kp TILDE        &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LBRC         &kp RBRC      &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &trans  &trans  
-&kp GRAVE        &trans  &kp UNDER         &kp MINU           &kp BSLH         &kp APOS      &mmv MOVE_RIGHT  &kp EQUAL        &kp PLUS         &trans      &trans     &trans  &trans           
+&kp GRAVE        &trans  &kp UNDER         &kp MINUS          &kp BSLH         &kp APOS      &mmv MOVE_RIGHT  &kp EQUAL        &kp PLUS         &trans      &trans     &trans  &trans           
 &trans           &trans  &trans            &trans             &trans           &kp DELETE    &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
             display-name = "layer1";
@@ -88,17 +88,5 @@
             display-name = "layer2";
             sensor-bindings = <&scroll_encoder>;
         };
-
-        layer_3 {
-            bindings = <
-&trans      &trans         &trans     &trans             &trans     &trans      &trans        &mkp MCLK       &mkp RCLK        &mkp MB4         &mkp MB5         &trans  &trans
-&trans      &trans         &trans     &trans             &trans     &trans      &trans        &trans          &trans           &trans           &trans           &trans  &trans
-&trans      &trans         &trans     &trans             &trans     &trans      &trans        &trans          &trans           &trans           &trans           &trans  &trans
-&trans      &trans         &trans     &trans             &trans     &trans      &trans        &trans          &trans           &trans           &trans           &trans  &trans
-&trans      &kp LCTRL      &trans     &trans             &trans     &trans      &trans        &trans          &trans           &trans           &trans           &trans
-            >;
-            display-name = "layer3";
-        };
-
     };
 };
