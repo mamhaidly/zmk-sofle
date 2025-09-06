@@ -93,7 +93,7 @@
             bindings = <
 &trans      &trans         &trans     &kp EQUAL          &kp TILDE  &kp PLUS    &trans        &mkp MCLK       &mkp RCLK        &mkp MB4         &mkp MB5         &trans  &trans
 &trans      &kp BSLH       &trans     &trans             &trans     &kp RBRC    &trans        &trans          &trans           &trans           &trans           &trans  &trans
-&kp CAPS    &kp APOS       &trans     &trans             &trans     &trans      &trans        &trans          &trans           &trans           &trans           &trans  &trans
+&trans      &kp APOS       &trans     &trans             &trans     &trans      &trans        &trans          &trans           &trans           &trans           &trans  &trans
 &trans      &trans         &trans     &trans             &trans     &trans      &trans        &trans          &trans           &trans           &trans           &trans  &trans
 &trans      &kp LCTRL      &trans     &trans             &trans     &trans      &trans        &trans          &trans           &trans           &trans           &trans
             >;
