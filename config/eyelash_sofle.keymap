@@ -47,27 +47,6 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
-
-        combo_esc {
-            layers = <0>;
-            timeout-ms = <50>;
-            key-positions = <15 16>;
-            bindings = <&kp ESC>;
-        };
-
-        combo_tab {
-            layers = <0>;
-            timeout-ms = <50>;
-            key-positions = <41 42>;
-            bindings = <&kp TAB>;
-        };
-
-        combo_ent {
-            layers = <0>;
-            timeout-ms = <50>;
-            key-positions = <48 49>;
-            bindings = <&kp ENTER>;
-        };
     };
 
     keymap {
@@ -79,7 +58,7 @@
 &kp Q       &trans  &kp W    &kp E    &kp R         &kp T        &kp DOWN_ARROW   &kp Y          &kp U          &kp I            &kp O    &trans  &kp P     
 &kp A       &trans  &kp S    &kp D    &kp F         &kp G        &kp LEFT_ARROW   &kp H          &kp J          &kp K            &kp L    &trans  &kp SEMI  
 &kp Z       &trans  &kp X    &kp C    &kp V         &kp B        &kp RIGHT_ARROW  &kp N          &kp M          &kp COMMA        &kp DOT  &trans  &kp FSLH  
-&kp C_MUTE  &trans  &trans   &kp ESC  &kp LEFT_GUI  &kp TAB      &kp ENTER        &kp ENTER      &kp SPACE      &kp BACKSPACE    &trans   &trans
+&kp C_MUTE  &trans  &trans   &kp ESC  &kp LEFT_GUI  &kp TAB      &kp ENTER        &kp ENTER      &lt 1 SPACE    &lt 2 BACKSPACE  &trans   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
